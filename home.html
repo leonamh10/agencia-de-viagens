@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Aqui além Destino, entregamos os melhores hotéis pra você também">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>Agência Destino</title>
+        <link rel="stylesheet" href="estilo.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&amp;display=swap">
+    </head>
+
+    <body>
+        <header>
+
+            <div class="topo">
+            <img src="./imgs/local-logo.png">
+            <p>Agência Destino<p>
+            </div>
+        </header>
+
+        <main>
+            <section class="fundo">
+                <div class="limita-secao">
+
+                  <div class="form">
+                    <div class="topo-form">
+                        <img src="./imgs/aviao.png" alt="Orçamento">
+                        <h2>Solicite seu Orçamento</h2>
+                    </div>
+                   
+                    <div class="conteudo-form">
+                        <form method="post" class="formulario" action="https://www.devmedia.com.br/codigos/missao/front-end/agencia-de-viagens/">
+                            <h3>Informe seus Dados</h3>
+
+                    <div class="conteudo-unico">
+                        <div>
+                            <label>Nome</label>
+                        </div>
+
+                        <div>
+
+                            <input type="text" name="nome"  placeholder="Nome Completo" />
+
+                        </div>
+
+                        <div>
+
+                            <label>Email</label>
+
+                        </div>
+
+                        <div>
+
+                            <input type="email" name="email" placeholder="Email para contato" />
+
+                        </div>
+                        
+                        <div>
+                            <label>Celular</label>
+                        </div>
+
+                        <div>
+                            <input type="tel" name="cel" placeholder="(XX) XXXX-XXXXX" />
+                        </div>
+                    </div>
+
+                    <div class="conteudo-duplo">
+                        <div>
+                            <label>Data de ida</label>
+                            <input type="date" name="data-ida" placeholder="dd/mm/aaaa" />
+                        </div>
+
+                        <div>
+                            <label>Data de volta</label>
+                            <input type="date" name="data-volta" placeholder="dd/mm/aaaa" />
+                        </div>
+                    </div>
+
+                    <div class="conteudo-duplo-sel">
+                        <div>
+                            <label>Origem</label>
+                            <select name="origem">
+                            <option value="">Partindo para</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label>Destino</label>
+                        <select name="destino">
+                            <option value="">Indo para</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                        </select>
+                    </div>
+                </div>
+
+                        <div class="select-radio">
+                            <label>Quarto com cama infantil?</label>
+
+                            <div class="option1">
+                                <input type="radio" name="resposta" value="sim" id="checkbox-pos" />
+                                <label for="checkbox-pos">Sim</label>
+                            
+                                <input class="option2" type="radio" name="resposta" value="não" id="checkbox-neg" />
+                                <label class="negat" for="checkbox-neg">Não</label>
+                            </div>
+                    </div>
+
+                    <div class="check">        
+                        <label class="check-label">Preferências da Hospedagem</label>
+
+                    <div class="check-option">
+
+                        <input type="checkbox" name="psicina" multiple id="check-piscina">
+                        <label for="check-piscina">Piscina</label>
+                    
+                        <input type="checkbox" name="wifi" id="check-wifi" multiple>
+                        <label for="check-wifi">Wi-fi</label>
+                
+                        <input type="checkbox" name="Garagem" id="check-garagem" multiple>
+                        <label for="check-garagem">Garagem</label>
+                    
+                        <input type="checkbox" name="Suite" id="check-suite" multiple>
+                        <label for="check-suite">Suite</label>
+
+                        <div class="botao">
+                            <button type="submit">Solicitar Orçamento</button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+               
+                        
+            </form>
+        </div>
+    </section>
+
+                <section class="ofertas">
+                    <div class="limita-secao">
+                    <h2>Ofertas</h2>
+                    <h3>Com até <span>50%</span> de Desconto</h3>
+
+                    <div class="galeria">
+                        <div class="rio">
+                            <img src="./imgs/rio.jpg" alt="Rio de Janeiro" title="Rio de Janeiro, Cidade Maravilhosa">
+                            <figcaption>Rio de Janeiro - RJ</figcaption>
+                        </div>
+
+                        <div class="miniaturas">
+                            <div>
+                                <img src="./imgs/manaus.jpg" alt="Manaus" title="Manaus - Cidade da Barra do Rio Negro">
+                                <figcaption class="manaus">Manaus - AM</figcaption>
+                        
+                                <img src="./imgs/saopaulo.jpg" alt="São Paulo" title="São Paulo - Terra da Garoa">
+                                <figcaption class="sp">São Paulo - SP</figcaption>
+                            </div>
+
+                            <div>
+                                <img src="./imgs/niteroi.jpg" alt="Rio de Janeiro" title="Niterói -  Cidade Sorriso">
+                                <figcaption class="rj">Niterói - RJ</figcaption>
+                        
+                                <img src="./imgs/maranhao.jpg" alt="Maranhão" title="Maranhão - Ilha do Amor">
+                                <figcaption class="ma">Maranhão - MA</figcaption>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="natureza">
+                <div class="limita-secao">
+                <h2>Explore a Natureza</h2>
+                <h3>Veja conosco e veja o <span>melhor</span> que a natureza tem a oferecer</h3>
+
+                <div class="natureza-fotos">
+                    <figure>
+                        <img src="./imgs/lencol.jpg" alt="Lençois Maranhenses">
+                   
+                    <figcaption>
+                        <h4>Lençóis Maranhenses, Brasil</h4>
+                        <p>Ida e volta a partir de <span>R$100,00</span></p>
+                    </figcaption>
+                </figure>
+
+                    <figure>
+                        <img src="./imgs/goias.jpg" alt="Cachoeira Santa Barbara">
+                    
+
+                    <figcaption>
+                        <h4>Cachoeira Santa Bárbara, Brasil</h4>
+                        <p>Ida e volta a partir de <span>R$ 180,00</span></p>
+                    </figcaption>
+                </figure>
+                </div>
+            </div>
+            </section>
+        </main>
+
+        <footer>    
+            <div class="conteudo-rodape">
+                <div>
+                    <h2>Contato</h2>
+
+                    <div class="icone">
+                        <img src="./imgs/local.png">
+                        <span>Rio de Janeiro</span>
+                    </div>
+
+                    <div class="icone">
+                        <img src="./imgs/telefone.png">
+                        <span>Telefone:(21) 9999-9999</span>
+                    </div>
+
+                    <div class="icone">
+                        <img src="./imgs/email.png">
+                        <span>Email: contato@agencia.com.br</span>
+                    </div>
+
+                </div>
+
+                <div class="icone">
+                <h2>Nossas Redes Sociais</h2>
+
+                <div class="icone">
+                    <img src="./imgs/fb.png">
+                    <span>/AgenciaDestino</span>
+                </div>
+
+                <div class="icone">
+                    <img src="./imgs/ig.png">
+                    <span>@AgenciaDestino</span>
+                </div>
+
+                <div class="icone">
+                    <img src="./imgs/tt.png">
+                    <span>@AgenciaDestino</span>
+
+                </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
